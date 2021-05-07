@@ -1,0 +1,43 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+    
+
+header{
+    height: 967px;
+    background-image:  url(../img/Bacground-header.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+header div.menu{
+    height: 137px;
+    background: rgba(0, 0, 0, 0.6)
+}
+header div.menu a img{
+    display: block;
+    padding-top: 50px;
+    padding-left: 100px;
+}
+header nav ul{
+    list-style-type: none;
+    padding-right: 50px;
+    margin: 0;
+}
+header nav ul li{
+    display: inline-block;
+    margin-right: 50px;
+}
+header nav ul li a{
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+}
+header nav ul li a:hover{
+    color: #39b9ef;
+    border-bottom: solid 2px;
+    text-decoration: none;
+}
+
