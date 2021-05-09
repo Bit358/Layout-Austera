@@ -1,7 +1,8 @@
 body{
     font-family: 'Montserrat', sans-serif;
     margin: 0 -15px;
-    overflow:  hidden;
+    overflow-x: hidden;
+    height: 5000px;
  }
 header{
     height: 967px;
@@ -16,7 +17,7 @@ header div.menu{
 }
 header div.menu a img{
     display: block;
-    padding-top: 49px;
+    padding-top: 46px;
     padding-left: 100px;
 }
 header nav ul{
@@ -26,7 +27,7 @@ header nav ul{
 }
 header nav ul li{
     display: inline-block;
-    margin-right: 46px;
+    margin-right: 53px;
 }
 header nav ul li a{
     color: white;
@@ -40,24 +41,25 @@ header nav ul li a:hover{
 }
 header div.coll-to h1{
     color: white;
-    margin-top: 279px;
+    margin-top: 273px;
     font-weight: bold;
     text-align: center;
     font-size: 72px;
+    margin-bottom: 16px;
 }
 header div.coll-to h1 span{
     color: #2ebaee;
-    letter-spacing: 0.5px;
 }
 header div.coll-to p{
     color: white;
     font-size: 24px;
     text-align: center;
-    padding-top: 2px;
-    letter-spacing: 0.3px;
+    margin-top: 0px;
 }
 header div.coll-to a button{
     display: block;
+    font-size: 18px;
+    text-decoration: none;
     width: 216px;
     height: 51px;
     background-color: #2ebaee;
@@ -65,4 +67,39 @@ header div.coll-to a button{
     border-radius: 24px;
     text-align: center;
     margin: 65px auto;
+}
+header div.coll-to a button:hover{
+    background-color: #248fb6;
+}
+header div.coll-to a {
+    text-decoration: none;
+}
+.container section h2{
+    text-align: center;
+    font-size: 48px;
+    font-weight: bold;
+    margin-top: 74px;
+    border-bottom: 1px solid #e7e7e7;
+    padding-bottom: 80px;
+    margin-bottom: 63px;
+}
+div .col-3 h3{
+    margin: 50px 0 25px 0;
+}
+div .col-3 p{
+    line-height: 25px;
+    color: #878787;
+}
+.Our_services a{
+    font-size: 14px;
+    text-decoration: none;
+    width: 151px;
+    height: 44px;
+    background-color: #2ebaee;
+    color: #fff;
+    border-radius: 24px;
+    text-align: center;
+    margin: 53px auto;
+    display: block;
+    
 }
